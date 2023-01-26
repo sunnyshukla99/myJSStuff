@@ -1,70 +1,33 @@
+<!--Internal CSS file, this is applied to the whole HTML file-->
 <!DOCTYPE html>
 <html>
 <head>
-<title>My HTML Page</title>
+<style>
+body {
+    background-color: powderblue;
+    font-family: verdana;
+    font-size: xx-large;
+}
+h1 {
+    color: blue;
+    font-family: courier;
+    font-size: 160%;
+    margin: 50px;
+}
+p {
+    color: red;
+    border:2px solid lime;
+    padding: 30px; 
+}
+</style>
 </head>
-<body style="background-color:powderblue;">
+<body>
+    <h1> This is a heading.</h1>
+    <p> This is a paragraph.</p>
 
-<h1 style="color:whitesmoke;" >My First Heading</h1>
-<p style="color: tomato;">My first paragraph.</p>
-<h1 style="font-family: verdana; font-size: large;">Verdana font</h1>
-<p style="font-family: courier; text-align: center;">courier</p>
-<a href="https://github.com/sunnyshukla99">Click here to go to GitHub</a>
-<h1 style="font-size:300%;"><a href="https://www.google.com">I've also created a link to Google!</a></h1>
-<br>
-<!--HTML text formatting area-->
-<br>
-<h1 style="border: 2px solid Tomato;"><b> This text is bold.</b></h1>
-<br>
-<strong> This text uses Strong property tag</strong>
-<br>
-<i> this text is italic.</i>
-<br>
-<em> Emphasized text.</em>
-<br>
-<mark> Marked text property.</mark>
-<br>
-<small> Smaller text.</small>
-<br>
-<del> Deleted text.</del>
-<br>
-<ins> Inserted text.</ins> 
-<br>
-This text is <sub> subscript </sub> and this is <sup> superscript.</sup>
-<!--New Line for other stuff-->
-<!--This has <blockquote>, <q>, <abbr>, <address>, <cite>,<bdo> tags-->
-<p> Here is a quote from WWF's website:</p>
-<blockquote cite="http://www.worldwildlife.org/who/index.html">
-    For 60 years, WWF has worked to help people and nature thrive. As the world's leading
-    conservation organization, WWF works in nearly 100 countries. At every level, we collaborate
-    with people around the world to develop and deliver innovativesolutions that protect communites,
-    wildlife, and the places in which they live.
-</blockquote> 
-<p>Short quote tag: <q>this is a short quote</q></p>
-<p>The <abbr title="Laugh out Loud">LOL</abbr> is strong with this one.</p>
-<address>
-    Written by Apurva Shukla.<br>
-    Visit us at: <br>
-    <a href="https://github.com/sunnyshukla99">Click here to go to GitHub</a><br>
-    Your home, Walls<br>
-    Country
-</address>
-<!--cite text-->
-<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
-<bdo dir="rtl">This text will be written from right to left</bdo>
 </body>
-</html> 
+</html>
 
-
-
-
-<!-- Notes for later on
-// You can stack CSS properies under one HTML header, check the courier font line for that example.
-// You can also set font sizes using name, instead of percentage. (Large seems to be default.)
-// color is for text color, background-color sets the background of the entire property.
-// color can also be defined by using RGB, HEX, HSL, RGBA and HSLA values.
-// style="border: pixel density, solid, color" for border text.
-// Emphasized text is used by screen readers to add verbal stress while pronouncing.
-// BDO stands for Bi-Directional Override and is useful for rendering text right to left or anyway you want I think.
-//
+<!--padding: 30px defines the space between the text and the border.
+margin: defines a space outside the border.
 -->
